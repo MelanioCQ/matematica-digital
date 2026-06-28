@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Matemática Digital | Contacto</title>
+	<meta name="description" content="Contáctanos para consultas, sugerencias, colaboraciones o cualquier inquietud sobre la enseñanza y el aprendizaje de las matemáticas.">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+	<!-- ENCABEZADO (HEADER): igual en todas las páginas -->
+	<header class="cabecera">
+		<div class="contenedor cabecera-superior">
+
+			<a href="index.html" class="logo">
+				<img src="img/logo.png" alt="Logo de Matemática Digital" width="56" height="56">
+				<span class="logo-texto">
+					<span class="logo-nombre">MATEMÁTICA DIGITAL</span>
+					<span class="logo-eslogan">Recursos, estrategias e innovación para la enseñanza de las matemáticas.</span>
+				</span>
+			</a>
+
+			<div class="redes-sociales">
+				<span>Síguenos en:</span>
+				<ul>
+					<li><a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+					<li><a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+					<li><a href="https://youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+					<li><a href="mailto:correo@matematicadigital.edu"><i class="fa-solid fa-envelope"></i></a></li>
+				</ul>
+			</div>
+		</div>
+
+		<!-- El enlace activo es "Contacto" -->
+		<nav class="navbar">
+			<div class="contenedor navbar-interno">
+				<button type="button" id="botonMenu" class="boton-menu">
+					<i class="fa-solid fa-bars"></i> Menú
+				</button>
+
+				<ul id="menuPrincipal" class="menu">
+					<li><a href="index.html">Inicio</a></li>
+					<li><a href="matematica-educacion.html">Matemática y Educación</a></li>
+					<li><a href="estrategias-ensenanza.html">Estrategias de Enseñanza</a></li>
+					<li><a href="herramientas-digitales.html">Herramientas Digitales</a></li>
+					<li><a href="recursos-educativos.html">Recursos Educativos</a></li>
+					<li><a href="blog.html">Blog</a></li>
+					<li><a href="nosotros.html">Nosotros</a></li>
+					<li><a href="contacto.html" class="activo">Contacto</a></li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+
+	<main>
+
+		<!-- BANNER DE PÁGINA -->
+		<section class="banner-pagina">
+			<div class="contenedor">
+				<nav aria-label="Ruta de navegación" class="migas-pan">
+					<ol>
+						<li><a href="index.html">Inicio</a></li>
+						<li aria-current="page">Contacto</li>
+					</ol>
+				</nav>
+
+				<h1>Contacto</h1>
+				<p>Estamos aquí para ayudarte. Contáctanos para consultas, sugerencias, colaboraciones o cualquier inquietud relacionada con la enseñanza y el aprendizaje de las matemáticas.</p>
+			</div>
+		</section>
+
+		<div class="contenedor diseno-dos-columnas">
+
+			<!-- Columna izquierda: contenido principal -->
+			<div class="columna-principal">
+
+				<!-- FORMAS DE CONTACTO -->
+				<section id="formas-contacto">
+					<h2 class="titulo-seccion">Formas de contacto</h2>
+
+					<ul class="tarjetas tarjetas-cuatro">
+						<li class="tarjeta">
+							<i class="fa-solid fa-envelope icono-tarjeta"></i>
+							<h3>Correo electrónico</h3>
+							<p><a href="mailto:correo@matematicadigital.edu">correo@matematicadigital.edu</a></p>
+							<p>Envíanos un correo y te responderemos a la brevedad.</p>
+						</li>
+						<li class="tarjeta">
+							<i class="fa-solid fa-phone icono-tarjeta"></i>
+							<h3>Teléfono / WhatsApp</h3>
+							<p><a href="tel:+51900000000">+51 900 000 000</a></p>
+							<p>Atención de lunes a viernes de 8:00 a.m. a 6:00 p.m.</p>
+						</li>
+						<li class="tarjeta">
+							<i class="fa-solid fa-location-dot icono-tarjeta"></i>
+							<h3>Ubicación</h3>
+							<p>Andahuaylas, Apurímac – Perú</p>
+							<p>Atención virtual para todo el país.</p>
+						</li>
+						<li class="tarjeta">
+							<i class="fa-solid fa-clock icono-tarjeta"></i>
+							<h3>Horario de atención</h3>
+							<p>Lunes a Viernes</p>
+							<p>8:00 a.m. – 6:00 p.m. <br> Sábados: 8:00 a.m. – 1:00 p.m.</p>
+						</li>
+					</ul>
+				</section>
+
+				<!-- FORMULARIO DE CONTACTO -->
+				<section id="formulario" class="formulario-contacto">
+					<h2 class="titulo-seccion">Envíanos un mensaje</h2>
+
+					<form class="caja">
+						<fieldset>
+							<legend class="oculto-visualmente">Formulario de contacto</legend>
+
+							<div class="fila-formulario">
+								<div class="campo-formulario">
+									<label for="nombre">Nombre completo *</label>
+									<input type="text" id="nombre" name="nombre" required>
+								</div>
+								<div class="campo-formulario">
+									<label for="correo">Correo electrónico *</label>
+									<input type="email" id="correo" name="correo" required>
+								</div>
+							</div>
+
+							<div class="campo-formulario">
+								<label for="asunto">Asunto *</label>
+								<select id="asunto" name="asunto" required>
+									<option value="">Selecciona un asunto</option>
+									<option value="consulta">Consulta general</option>
+									<option value="colaboracion">Colaboración</option>
+									<option value="sugerencia">Sugerencia</option>
+									<option value="soporte">Soporte técnico</option>
+								</select>
+							</div>
+
+							<div class="campo-formulario">
+								<label for="mensaje">Mensaje *</label>
+								<textarea id="mensaje" name="mensaje" rows="6" placeholder="Escribe tu mensaje aquí..." required></textarea>
+							</div>
+
+							<div class="campo-formulario campo-checkbox">
+								<input type="checkbox" id="aceptoPolitica" name="aceptoPolitica" required>
+								<label for="aceptoPolitica">He leído y acepto la <a href="politica-privacidad.html">Política de privacidad</a>.</label>
+							</div>
+
+							<button type="submit" class="boton boton-primario"><i class="fa-solid fa-paper-plane"></i> Enviar mensaje</button>
+						</fieldset>
+					</form>
+				</section>
+
+				<!-- PREGUNTAS FRECUENTES -->
+				<section id="faq">
+					<h2 class="titulo-seccion">Preguntas frecuentes</h2>
+
+					<details>
+						<summary>¿Cómo puedo sugerir un recurso educativo?</summary>
+						<p>Puedes enviarnos tu propuesta a través del formulario de contacto seleccionando la opción "Sugerencia" en el asunto.</p>
+					</details>
+					<details>
+						<summary>¿Puedo colaborar con Matemática Digital?</summary>
+						<p>Sí, estamos abiertos a colaboraciones con docentes e instituciones educativas. Escríbenos para conversar sobre la propuesta.</p>
+					</details>
+					<details>
+						<summary>¿Ofrecen talleres o capacitaciones?</summary>
+						<p>Actualmente estamos desarrollando talleres y capacitaciones para docentes. Pronto compartiremos más información.</p>
+					</details>
+					<details>
+						<summary>¿Cómo reporto un problema técnico?</summary>
+						<p>Selecciona la opción "Soporte técnico" en el formulario de contacto y describe el problema con el mayor detalle posible.</p>
+					</details>
+					<details>
+						<summary>¿En cuánto tiempo responden los mensajes?</summary>
+						<p>Nos comprometemos a responder todas las consultas en el menor tiempo posible, usualmente dentro de 48 horas hábiles.</p>
+					</details>
+					<details>
+						<summary>¿Puedo usar los recursos con mis estudiantes?</summary>
+						<p>Sí, todos los recursos publicados están disponibles para su uso educativo en el aula.</p>
+					</details>
+				</section>
+
+				<!-- UBICACIÓN -->
+				<section id="ubicacion">
+					<h2 class="titulo-seccion">Nuestra ubicación</h2>
+
+					<div class="ubicacion-info">
+						<div class="imagen-pendiente">Mapa referencial</div>
+						<div class="caja">
+							<p><i class="fa-solid fa-location-dot"></i> <strong>Andahuaylas, Apurímac – Perú</strong></p>
+							<p>Atención virtual para todo el país.</p>
+							<p>Estamos conectados para apoyar a docentes y estudiantes en su aprendizaje matemático.</p>
+						</div>
+					</div>
+				</section>
+
+			</div>
+
+			<!-- ASIDE (COLUMNA LATERAL) -->
+			<aside class="barra-lateral">
+
+				<section class="caja">
+					<h2>Información adicional</h2>
+					<ul class="lista-enlaces">
+						<li>
+							<i class="fa-solid fa-circle-question"></i>
+							<strong>Consultas generales:</strong> Para dudas sobre el contenido del sitio, recursos o materiales.
+						</li>
+						<li>
+							<i class="fa-solid fa-handshake"></i>
+							<strong>Colaboraciones:</strong> ¿Deseas colaborar con nosotros? Escríbenos y conversemos.
+						</li>
+						<li>
+							<i class="fa-solid fa-lightbulb"></i>
+							<strong>Sugerencias:</strong> Tu opinión nos ayuda a mejorar y ofrecer mejores recursos.
+						</li>
+						<li>
+							<i class="fa-solid fa-bug"></i>
+							<strong>Soporte técnico:</strong> ¿Tienes problemas técnicos? Estamos para ayudarte.
+						</li>
+					</ul>
+				</section>
+
+				<nav class="caja" aria-label="Redes sociales">
+					<h2>Síguenos en redes sociales</h2>
+					<p>Únete a nuestra comunidad y mantente actualizado con nuevos recursos, estrategias y novedades.</p>
+					<ul class="lista-enlaces">
+						<li><a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i> Facebook</a></li>
+						<li><a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i> Instagram</a></li>
+						<li><a href="https://youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i> YouTube</a></li>
+						<li><a href="mailto:correo@matematicadigital.edu"><i class="fa-solid fa-envelope"></i> Correo</a></li>
+					</ul>
+				</nav>
+
+				<section class="caja caja-boletin">
+					<h2>Suscríbete a nuestro boletín</h2>
+					<p>Recibe recursos exclusivos, estrategias y novedades directamente en tu correo.</p>
+					<form>
+						<label for="correoBoletin" class="oculto-visualmente">Correo electrónico</label>
+						<input type="email" id="correoBoletin" name="email" placeholder="Tu correo electrónico" required>
+						<button type="submit" class="boton boton-boletin">Suscribirme</button>
+						<p class="texto-pequeno">No compartimos tu información.</p>
+					</form>
+				</section>
+
+			</aside>
+		</div>
+	</main>
+
+	<!-- PIE DE PÁGINA (FOOTER): igual en todas las páginas -->
+	<footer class="pie-pagina">
+		<div class="contenedor pie-superior">
+
+			<div class="pie-marca">
+				<img src="img/logo.png" alt="Logo de Matemática Digital" width="48" height="48">
+				<div>
+					<p class="logo-nombre">MATEMÁTICA DIGITAL</p>
+					<p>Recursos, estrategias e innovación para la enseñanza de las matemáticas.</p>
+				</div>
+				<ul class="redes-sociales-pie">
+					<li><a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+					<li><a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+					<li><a href="https://youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+					<li><a href="mailto:correo@matematicadigital.edu"><i class="fa-solid fa-envelope"></i></a></li>
+				</ul>
+			</div>
+
+			<nav class="pie-enlaces">
+				<h2>Enlaces rápidos</h2>
+				<ul>
+					<li><a href="index.html">Inicio</a></li>
+					<li><a href="matematica-educacion.html">Matemática y Educación</a></li>
+					<li><a href="estrategias-ensenanza.html">Estrategias de Enseñanza</a></li>
+					<li><a href="herramientas-digitales.html">Herramientas Digitales</a></li>
+					<li><a href="recursos-educativos.html">Recursos Educativos</a></li>
+					<li><a href="blog.html">Blog</a></li>
+					<li><a href="nosotros.html">Nosotros</a></li>
+					<li><a href="contacto.html">Contacto</a></li>
+				</ul>
+			</nav>
+
+			<nav class="pie-enlaces">
+				<h2>Recursos</h2>
+				<ul>
+					<li><a href="recursos-educativos.html">Guías didácticas</a></li>
+					<li><a href="recursos-educativos.html">Videos educativos</a></li>
+					<li><a href="recursos-educativos.html">Infografías</a></li>
+					<li><a href="recursos-educativos.html">Plantillas</a></li>
+					<li><a href="recursos-educativos.html">Ejercicios interactivos</a></li>
+				</ul>
+			</nav>
+
+			<address class="pie-contacto">
+				<h2>Contacto</h2>
+				<p><i class="fa-solid fa-envelope"></i> <a href="mailto:correo@matematicadigital.edu">correo@matematicadigital.edu</a></p>
+				<p><i class="fa-solid fa-phone"></i> <a href="tel:+51900000000">+51 900 000 000</a></p>
+				<p><i class="fa-solid fa-location-dot"></i> Andahuaylas, Apurímac – Perú</p>
+			</address>
+		</div>
+
+		<div class="pie-inferior">
+			<div class="contenedor pie-inferior-interno">
+				<p>&copy; 2024 Matemática Digital. Todos los derechos reservados.</p>
+				<nav>
+					<ul>
+						<li><a href="terminos-condiciones.html">Términos y Condiciones</a></li>
+						<li><a href="politica-privacidad.html">Política de Privacidad</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</footer>
+
+	<script src="js/main.js"></script>
+</body>
+</html>

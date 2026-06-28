@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Matemática Digital | Blog</title>
+	<meta name="description" content="Artículos, ideas y experiencias para inspirar y transformar la enseñanza y el aprendizaje de las matemáticas.">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+	<!-- ENCABEZADO (HEADER): igual en todas las páginas -->
+	<header class="cabecera">
+		<div class="contenedor cabecera-superior">
+
+			<a href="index.html" class="logo">
+				<img src="img/logo.png" alt="Logo de Matemática Digital" width="56" height="56">
+				<span class="logo-texto">
+					<span class="logo-nombre">MATEMÁTICA DIGITAL</span>
+					<span class="logo-eslogan">Recursos, estrategias e innovación para la enseñanza de las matemáticas.</span>
+				</span>
+			</a>
+
+			<div class="redes-sociales">
+				<span>Síguenos en:</span>
+				<ul>
+					<li><a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+					<li><a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+					<li><a href="https://youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+					<li><a href="mailto:correo@matematicadigital.edu"><i class="fa-solid fa-envelope"></i></a></li>
+				</ul>
+			</div>
+		</div>
+
+		<!-- El enlace activo es "Blog" -->
+		<nav class="navbar">
+			<div class="contenedor navbar-interno">
+				<button type="button" id="botonMenu" class="boton-menu">
+					<i class="fa-solid fa-bars"></i> Menú
+				</button>
+
+				<ul id="menuPrincipal" class="menu">
+					<li><a href="index.html">Inicio</a></li>
+					<li><a href="matematica-educacion.html">Matemática y Educación</a></li>
+					<li><a href="estrategias-ensenanza.html">Estrategias de Enseñanza</a></li>
+					<li><a href="herramientas-digitales.html">Herramientas Digitales</a></li>
+					<li><a href="recursos-educativos.html">Recursos Educativos</a></li>
+					<li><a href="blog.html" class="activo">Blog</a></li>
+					<li><a href="nosotros.html">Nosotros</a></li>
+					<li><a href="contacto.html">Contacto</a></li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+
+	<main>
+
+		<!-- BANNER DE PÁGINA -->
+		<section class="banner-pagina">
+			<div class="contenedor">
+				<nav aria-label="Ruta de navegación" class="migas-pan">
+					<ol>
+						<li><a href="index.html">Inicio</a></li>
+						<li aria-current="page">Blog</li>
+					</ol>
+				</nav>
+
+				<h1>Blog</h1>
+				<p>Artículos, ideas y experiencias para inspirar y transformar la enseñanza y el aprendizaje de las matemáticas.</p>
+			</div>
+		</section>
+
+		<div class="contenedor diseno-dos-columnas">
+
+			<!-- Columna izquierda: contenido principal -->
+			<div class="columna-principal">
+
+				<!-- ARTÍCULOS DESTACADOS -->
+				<section id="destacados">
+					<h2 class="titulo-seccion">Artículos destacados</h2>
+
+					<ul class="tarjetas-recursos">
+						<li class="tarjeta-recurso">
+							<article>
+								<figure>
+									<div class="imagen-pendiente">Estrategias activas</div>
+								</figure>
+								<span class="etiqueta etiqueta-guia">Estrategias</span>
+								<p class="meta-articulo"><time datetime="2024-05-25">25 de mayo, 2024</time> &middot; 5 min de lectura</p>
+								<h3><a href="#">Estrategias activas para el aprendizaje significativo en matemáticas</a></h3>
+								<p>Descubre cómo aplicar estrategias activas que fomenten la participación y el pensamiento crítico en el aula.</p>
+								<a href="#">Leer artículo →</a>
+							</article>
+						</li>
+						<li class="tarjeta-recurso">
+							<article>
+								<figure>
+									<div class="imagen-pendiente">Herramientas digitales</div>
+								</figure>
+								<span class="etiqueta etiqueta-video">Herramientas</span>
+								<p class="meta-articulo"><time datetime="2024-05-18">18 de mayo, 2024</time> &middot; 6 min de lectura</p>
+								<h3><a href="#">Herramientas digitales que transforman la enseñanza de las matemáticas</a></h3>
+								<p>Una guía práctica de herramientas digitales que facilitan la enseñanza y mejoran los resultados de aprendizaje.</p>
+								<a href="#">Leer artículo →</a>
+							</article>
+						</li>
+						<li class="tarjeta-recurso">
+							<article>
+								<figure>
+									<div class="imagen-pendiente">Innovación educativa</div>
+								</figure>
+								<span class="etiqueta etiqueta-ejercicio">Innovación</span>
+								<p class="meta-articulo"><time datetime="2024-05-10">10 de mayo, 2024</time> &middot; 4 min de lectura</p>
+								<h3><a href="#">Innovación educativa: el futuro de las matemáticas en el aula</a></h3>
+								<p>Reflexionamos sobre cómo la innovación educativa puede preparar a los estudiantes para los desafíos del futuro.</p>
+								<a href="#">Leer artículo →</a>
+							</article>
+						</li>
+					</ul>
+				</section>
+
+				<!-- ÚLTIMOS ARTÍCULOS -->
+				<section id="ultimos">
+					<h2 class="titulo-seccion">Últimos artículos</h2>
+
+					<ul class="lista-articulos">
+						<li class="articulo-horizontal">
+							<article>
+								<figure>
+									<div class="imagen-pendiente">Actividades de fracciones</div>
+								</figure>
+								<div class="articulo-info">
+									<span class="etiqueta etiqueta-guia">Actividades</span>
+									<h3><a href="#">Actividades prácticas para enseñar fracciones</a></h3>
+									<p>Ideas y actividades manipulativas para que los estudiantes comprendan el concepto de fracciones de manera concreta y divertida.</p>
+									<p class="meta-articulo"><i class="fa-solid fa-calendar"></i> <time datetime="2024-05-08">8 de mayo, 2024</time> &middot; <i class="fa-solid fa-clock"></i> 4 min de lectura</p>
+									<a href="#">Leer artículo →</a>
+								</div>
+							</article>
+						</li>
+						<li class="articulo-horizontal">
+							<article>
+								<figure>
+									<div class="imagen-pendiente">Recursos gratuitos</div>
+								</figure>
+								<div class="articulo-info">
+									<span class="etiqueta etiqueta-infografia">Recursos</span>
+									<h3><a href="#">Recursos educativos gratuitos para docentes</a></h3>
+									<p>Una selección de recursos gratuitos y de calidad que puedes usar en tus clases de matemáticas.</p>
+									<p class="meta-articulo"><i class="fa-solid fa-calendar"></i> <time datetime="2024-05-02">2 de mayo, 2024</time> &middot; <i class="fa-solid fa-clock"></i> 5 min de lectura</p>
+									<a href="#">Leer artículo →</a>
+								</div>
+							</article>
+						</li>
+						<li class="articulo-horizontal">
+							<article>
+								<figure>
+									<div class="imagen-pendiente">Materiales manipulativos</div>
+								</figure>
+								<div class="articulo-info">
+									<span class="etiqueta etiqueta-video">Didáctica</span>
+									<h3><a href="#">Cómo usar materiales manipulativos en el aula</a></h3>
+									<p>Los materiales manipulativos ayudan a los estudiantes a comprender conceptos abstractos de forma significativa.</p>
+									<p class="meta-articulo"><i class="fa-solid fa-calendar"></i> <time datetime="2024-04-28">28 de abril, 2024</time> &middot; <i class="fa-solid fa-clock"></i> 6 min de lectura</p>
+									<a href="#">Leer artículo →</a>
+								</div>
+							</article>
+						</li>
+						<li class="articulo-horizontal">
+							<article>
+								<figure>
+									<div class="imagen-pendiente">Investigaciones</div>
+								</figure>
+								<div class="articulo-info">
+									<span class="etiqueta etiqueta-ejercicio">Investigación</span>
+									<h3><a href="#">Investigaciones recientes en educación matemática</a></h3>
+									<p>Revisión de estudios actuales que aportan nuevas perspectivas sobre la enseñanza y el aprendizaje de las matemáticas.</p>
+									<p class="meta-articulo"><i class="fa-solid fa-calendar"></i> <time datetime="2024-04-20">20 de abril, 2024</time> &middot; <i class="fa-solid fa-clock"></i> 7 min de lectura</p>
+									<a href="#">Leer artículo →</a>
+								</div>
+							</article>
+						</li>
+					</ul>
+
+					<a href="#" class="boton boton-secundario boton-ancho">Ver más artículos →</a>
+				</section>
+
+				<!-- LLAMADO A LA ACCIÓN: ENVIAR PROPUESTA DE ARTÍCULO -->
+				<section class="caja-cta-ancha">
+					<div class="imagen-pendiente">Útiles de escritorio</div>
+					<div>
+						<h2>¿Tienes una idea para compartir?</h2>
+						<p>Envíanos tu propuesta de artículo y contribuye a nuestra comunidad educativa.</p>
+						<a href="contacto.html" class="boton boton-primario">Enviar propuesta</a>
+					</div>
+				</section>
+
+			</div>
+
+			<!-- ASIDE (COLUMNA LATERAL) -->
+			<aside class="barra-lateral">
+
+				<!-- Buscador del blog -->
+				<section class="caja">
+					<h2>Buscar en el blog</h2>
+					<form role="search">
+						<label for="buscarBlog" class="oculto-visualmente">Buscar artículos</label>
+						<input type="search" id="buscarBlog" name="buscar" placeholder="Buscar artículos...">
+					</form>
+				</section>
+
+				<!-- Categorías del blog -->
+				<nav class="caja" aria-label="Categorías del blog">
+					<h2>Categorías</h2>
+					<ul class="lista-enlaces">
+						<li><a href="#"><i class="fa-solid fa-people-group"></i> Estrategias (12)</a></li>
+						<li><a href="#"><i class="fa-solid fa-pen"></i> Herramientas (10)</a></li>
+						<li><a href="#"><i class="fa-solid fa-file-lines"></i> Recursos (9)</a></li>
+						<li><a href="#"><i class="fa-solid fa-chalkboard"></i> Didáctica (8)</a></li>
+						<li><a href="#"><i class="fa-solid fa-lightbulb"></i> Innovación (7)</a></li>
+						<li><a href="#"><i class="fa-solid fa-magnifying-glass"></i> Investigación (6)</a></li>
+					</ul>
+					<a href="#">Ver todas las categorías →</a>
+				</nav>
+
+				<!-- Artículos populares -->
+				<section class="caja">
+					<h2>Artículos populares</h2>
+					<ol class="lista-numerada">
+						<li><a href="#">Cómo motivar a los estudiantes en matemáticas</a></li>
+						<li><a href="#">El uso de juegos para aprender matemáticas</a></li>
+						<li><a href="#">Evaluación formativa en el aula de matemáticas</a></li>
+						<li><a href="#">Gamificación: aprender jugando matemáticas</a></li>
+						<li><a href="#">El pensamiento lógico desde edades tempranas</a></li>
+					</ol>
+					<a href="#">Ver más populares →</a>
+				</section>
+
+				<!-- Suscripción al blog -->
+				<section class="caja caja-boletin">
+					<h2>Suscríbete al blog</h2>
+					<p>Recibe artículos y recursos exclusivos directamente en tu correo.</p>
+					<form>
+						<label for="correoBlog" class="oculto-visualmente">Correo electrónico</label>
+						<input type="email" id="correoBlog" name="email" placeholder="Tu correo electrónico" required>
+						<button type="submit" class="boton boton-boletin">Suscribirme</button>
+						<p class="texto-pequeno">No compartimos tu información.</p>
+					</form>
+				</section>
+
+				<!-- Etiquetas populares -->
+				<section class="caja">
+					<h2>Etiquetas populares</h2>
+					<ul class="lista-temas">
+						<li><a href="#">aprendizaje activo</a></li>
+						<li><a href="#">tecnología</a></li>
+						<li><a href="#">juegos</a></li>
+						<li><a href="#">evaluación</a></li>
+						<li><a href="#">recursos</a></li>
+						<li><a href="#">innovación</a></li>
+						<li><a href="#">problemas</a></li>
+						<li><a href="#">didáctica</a></li>
+					</ul>
+					<a href="#">Ver todas las etiquetas →</a>
+				</section>
+
+			</aside>
+		</div>
+	</main>
+
+	<!-- PIE DE PÁGINA (FOOTER): igual en todas las páginas -->
+	<footer class="pie-pagina">
+		<div class="contenedor pie-superior">
+
+			<div class="pie-marca">
+				<img src="img/logo.png" alt="Logo de Matemática Digital" width="48" height="48">
+				<div>
+					<p class="logo-nombre">MATEMÁTICA DIGITAL</p>
+					<p>Recursos, estrategias e innovación para la enseñanza de las matemáticas.</p>
+				</div>
+				<ul class="redes-sociales-pie">
+					<li><a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+					<li><a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+					<li><a href="https://youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+					<li><a href="mailto:correo@matematicadigital.edu"><i class="fa-solid fa-envelope"></i></a></li>
+				</ul>
+			</div>
+
+			<nav class="pie-enlaces">
+				<h2>Enlaces rápidos</h2>
+				<ul>
+					<li><a href="index.html">Inicio</a></li>
+					<li><a href="matematica-educacion.html">Matemática y Educación</a></li>
+					<li><a href="estrategias-ensenanza.html">Estrategias de Enseñanza</a></li>
+					<li><a href="herramientas-digitales.html">Herramientas Digitales</a></li>
+					<li><a href="recursos-educativos.html">Recursos Educativos</a></li>
+					<li><a href="blog.html">Blog</a></li>
+					<li><a href="nosotros.html">Nosotros</a></li>
+					<li><a href="contacto.html">Contacto</a></li>
+				</ul>
+			</nav>
+
+			<nav class="pie-enlaces">
+				<h2>Recursos</h2>
+				<ul>
+					<li><a href="recursos-educativos.html">Guías didácticas</a></li>
+					<li><a href="recursos-educativos.html">Videos educativos</a></li>
+					<li><a href="recursos-educativos.html">Infografías</a></li>
+					<li><a href="recursos-educativos.html">Plantillas</a></li>
+					<li><a href="recursos-educativos.html">Ejercicios interactivos</a></li>
+				</ul>
+			</nav>
+
+			<address class="pie-contacto">
+				<h2>Contacto</h2>
+				<p><i class="fa-solid fa-envelope"></i> <a href="mailto:correo@matematicadigital.edu">correo@matematicadigital.edu</a></p>
+				<p><i class="fa-solid fa-phone"></i> <a href="tel:+51900000000">+51 900 000 000</a></p>
+				<p><i class="fa-solid fa-location-dot"></i> Andahuaylas, Apurímac – Perú</p>
+			</address>
+		</div>
+
+		<div class="pie-inferior">
+			<div class="contenedor pie-inferior-interno">
+				<p>&copy; 2024 Matemática Digital. Todos los derechos reservados.</p>
+				<nav>
+					<ul>
+						<li><a href="terminos-condiciones.html">Términos y Condiciones</a></li>
+						<li><a href="politica-privacidad.html">Política de Privacidad</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</footer>
+
+	<script src="js/main.js"></script>
+</body>
+</html>

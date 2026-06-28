@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Matemática Digital | Inicio</title>
+	<meta name="description" content="Portal educativo con recursos, estrategias y herramientas digitales para la enseñanza de las matemáticas.">
+
+	<!-- Fuentes de Google Fonts: Poppins para títulos y Roboto para texto -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+	<!-- Font Awesome: librería de íconos usada en todo el sitio -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+	<!-- Nuestra hoja de estilos propia -->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+	<!--
+		ENCABEZADO (HEADER)
+		Aquí va el logo del sitio, el nombre, el eslogan y las redes sociales.
+		Esta parte se repite igual en todas las páginas del sitio.
+	-->
+	<header class="cabecera">
+		<div class="contenedor cabecera-superior">
+
+			<!-- Logo y nombre del sitio, enlazan a la página de inicio -->
+			<a href="index.html" class="logo">
+				<img src="img/logo.png" alt="Logo de Matemática Digital" width="56" height="56">
+				<span class="logo-texto">
+					<span class="logo-nombre">MATEMÁTICA DIGITAL</span>
+					<span class="logo-eslogan">Recursos, estrategias e innovación para la enseñanza de las matemáticas.</span>
+				</span>
+			</a>
+
+			<!-- Redes sociales del sitio -->
+			<div class="redes-sociales">
+				<span>Síguenos en:</span>
+				<ul>
+					<li><a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+					<li><a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+					<li><a href="https://youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+					<li><a href="mailto:correo@matematicadigital.edu"><i class="fa-solid fa-envelope"></i></a></li>
+				</ul>
+			</div>
+		</div>
+
+		<!--
+			MENÚ DE NAVEGACIÓN (NAVBAR)
+			Es el menú principal para movernos entre las páginas del sitio.
+		-->
+		<nav class="navbar">
+			<div class="contenedor navbar-interno">
+
+				<!-- Botón para abrir el menú en celulares (se muestra solo en mobile) -->
+				<button type="button" id="botonMenu" class="boton-menu">
+					<i class="fa-solid fa-bars"></i> Menú
+				</button>
+
+				<ul id="menuPrincipal" class="menu">
+					<li><a href="index.html" class="activo">Inicio</a></li>
+					<li><a href="matematica-educacion.html">Matemática y Educación</a></li>
+					<li><a href="estrategias-ensenanza.html">Estrategias de Enseñanza</a></li>
+					<li><a href="herramientas-digitales.html">Herramientas Digitales</a></li>
+					<li><a href="recursos-educativos.html">Recursos Educativos</a></li>
+					<li><a href="blog.html">Blog</a></li>
+					<li><a href="nosotros.html">Nosotros</a></li>
+					<li><a href="contacto.html">Contacto</a></li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+
+	<!--
+		CONTENIDO PRINCIPAL DE LA PÁGINA
+		Usamos <main> porque aquí va el contenido único de la página de Inicio.
+	-->
+	<main>
+
+		<div class="contenedor diseno-dos-columnas">
+
+			<!-- Columna izquierda: contenido principal de la página -->
+			<div class="columna-principal">
+
+				<!--
+					HERO PRINCIPAL
+					Es el primer bloque grande que ve el usuario al entrar.
+					Tiene el mensaje de bienvenida y los botones principales.
+				-->
+				<section class="hero">
+					<div class="hero-texto">
+						<h1>Bienvenido a Matemática Digital</h1>
+						<p class="hero-frase">Tu espacio para aprender, enseñar e innovar con las matemáticas.</p>
+						<p>Explora recursos, estrategias y herramientas digitales diseñadas para fortalecer el aprendizaje matemático en todos los niveles educativos.</p>
+
+						<div class="hero-botones">
+							<a href="recursos-educativos.html" class="boton boton-primario">Explorar recursos</a>
+							<a href="nosotros.html" class="boton boton-secundario">Conoce más</a>
+						</div>
+					</div>
+
+					<!-- Imagen del hero (todavía es un espacio reservado, se cambiará por la imagen real) -->
+					<figure class="hero-imagen">
+						<div class="imagen-pendiente">Imagen del hero</div>
+						<figcaption class="oculto-visualmente">Laptop, calculadora y útiles de estudio</figcaption>
+					</figure>
+
+					<!-- Puntos de un mini carrusel (por ahora solo decorativos) -->
+					<div class="hero-puntos">
+						<button type="button" class="punto punto-activo" aria-label="Imagen 1"></button>
+						<button type="button" class="punto" aria-label="Imagen 2"></button>
+						<button type="button" class="punto" aria-label="Imagen 3"></button>
+						<button type="button" class="punto" aria-label="Imagen 4"></button>
+					</div>
+				</section>
+
+				<!--
+					EXPLORA NUESTRAS SECCIONES
+					Tarjetas que llevan a las principales secciones del sitio.
+				-->
+				<section class="seccion-tarjetas">
+					<h2 class="titulo-seccion">Explora nuestras secciones</h2>
+
+					<ul class="tarjetas">
+						<li class="tarjeta">
+							<i class="fa-solid fa-book-open icono-tarjeta"></i>
+							<h3>Matemática y Educación</h3>
+							<p>Fundamentos y enfoques educativos para la enseñanza matemática.</p>
+							<a href="matematica-educacion.html">Explorar →</a>
+						</li>
+						<li class="tarjeta">
+							<i class="fa-solid fa-lightbulb icono-tarjeta"></i>
+							<h3>Estrategias de Enseñanza</h3>
+							<p>Métodos y técnicas innovadoras para un aprendizaje significativo.</p>
+							<a href="estrategias-ensenanza.html">Explorar →</a>
+						</li>
+						<li class="tarjeta">
+							<i class="fa-solid fa-puzzle-piece icono-tarjeta"></i>
+							<h3>Herramientas Digitales</h3>
+							<p>Descubre aplicaciones y plataformas que facilitan la enseñanza.</p>
+							<a href="herramientas-digitales.html">Explorar →</a>
+						</li>
+						<li class="tarjeta">
+							<i class="fa-solid fa-folder-open icono-tarjeta"></i>
+							<h3>Recursos Educativos</h3>
+							<p>Materiales didácticos listos para usar en tus clases.</p>
+							<a href="recursos-educativos.html">Explorar →</a>
+						</li>
+						<li class="tarjeta">
+							<i class="fa-solid fa-pen icono-tarjeta"></i>
+							<h3>Blog Educativo</h3>
+							<p>Artículos, ideas y experiencias que inspiran y educan.</p>
+							<a href="blog.html">Explorar →</a>
+						</li>
+					</ul>
+				</section>
+
+				<!--
+					ESTADÍSTICAS
+					Números que muestran el alcance del portal.
+				-->
+				<section class="estadisticas">
+					<ul class="lista-estadisticas">
+						<li>
+							<i class="fa-solid fa-users"></i>
+							<strong>+2,500</strong>
+							<span>Docentes beneficiados</span>
+						</li>
+						<li>
+							<i class="fa-solid fa-book"></i>
+							<strong>+1,200</strong>
+							<span>Recursos publicados</span>
+						</li>
+						<li>
+							<i class="fa-solid fa-globe"></i>
+							<strong>8</strong>
+							<span>Países alcanzados</span>
+						</li>
+						<li>
+							<i class="fa-solid fa-graduation-cap"></i>
+							<strong>+50,000</strong>
+							<span>Estudiantes impactados</span>
+						</li>
+					</ul>
+				</section>
+
+				<!--
+					RECURSOS DESTACADOS
+					Una selección de recursos (guía, video, infografía, ejercicio).
+				-->
+				<section class="recursos-destacados">
+					<h2 class="titulo-seccion">Recursos destacados</h2>
+
+					<ul class="tarjetas-recursos">
+						<li class="tarjeta-recurso">
+							<article>
+								<figure>
+									<div class="imagen-pendiente">Guía</div>
+								</figure>
+								<span class="etiqueta etiqueta-guia">Guía</span>
+								<h3>Estrategias activas para el aprendizaje significativo</h3>
+								<p>Descubre cómo aplicar estrategias que fomenten la participación y el pensamiento crítico en el aula.</p>
+								<a href="recursos-educativos.html">Ver recurso →</a>
+							</article>
+						</li>
+						<li class="tarjeta-recurso">
+							<article>
+								<figure>
+									<div class="imagen-pendiente"><i class="fa-solid fa-circle-play"></i></div>
+								</figure>
+								<span class="etiqueta etiqueta-video">Video</span>
+								<h3>Conceptos básicos de Álgebra</h3>
+								<p>Video explicativo sobre los conceptos fundamentales del álgebra.</p>
+								<a href="recursos-educativos.html">Ver video →</a>
+							</article>
+						</li>
+						<li class="tarjeta-recurso">
+							<article>
+								<figure>
+									<div class="imagen-pendiente">Infografía</div>
+								</figure>
+								<span class="etiqueta etiqueta-infografia">Infografía</span>
+								<h3>Fórmulas matemáticas esenciales</h3>
+								<p>Resumen visual de las fórmulas más importantes de matemáticas.</p>
+								<a href="recursos-educativos.html">Descargar →</a>
+							</article>
+						</li>
+						<li class="tarjeta-recurso">
+							<article>
+								<figure>
+									<div class="imagen-pendiente">Ejercicio</div>
+								</figure>
+								<span class="etiqueta etiqueta-ejercicio">Ejercicio</span>
+								<h3>Ejercicios de Geometría</h3>
+								<p>Conjunto de ejercicios prácticos para reforzar conceptos de geometría plana y espacial.</p>
+								<a href="recursos-educativos.html">Practicar →</a>
+							</article>
+						</li>
+					</ul>
+
+					<a href="recursos-educativos.html" class="boton boton-secundario boton-ancho">Ver todos los recursos →</a>
+				</section>
+
+				<!--
+					POR NIVEL EDUCATIVO Y TEMAS POPULARES
+					Dos bloques juntos: tarjetas por nivel y una lista de temas.
+				-->
+				<section class="nivel-y-temas">
+
+					<div class="niveles">
+						<h2 class="titulo-seccion">Por nivel educativo</h2>
+						<ul class="tarjetas tarjetas-niveles">
+							<li class="tarjeta">
+								<i class="fa-solid fa-child icono-tarjeta"></i>
+								<h3>Primaria</h3>
+								<p>Recursos adaptados para los primeros años de aprendizaje.</p>
+								<a href="recursos-educativos.html">Explorar →</a>
+							</li>
+							<li class="tarjeta">
+								<i class="fa-solid fa-book-open icono-tarjeta"></i>
+								<h3>Secundaria</h3>
+								<p>Materiales para fortalecer competencias en cada grado.</p>
+								<a href="recursos-educativos.html">Explorar →</a>
+							</li>
+							<li class="tarjeta">
+								<i class="fa-solid fa-graduation-cap icono-tarjeta"></i>
+								<h3>Educación Superior</h3>
+								<p>Recursos avanzados para universitarios y profesionales.</p>
+								<a href="recursos-educativos.html">Explorar →</a>
+							</li>
+							<li class="tarjeta">
+								<i class="fa-solid fa-user icono-tarjeta"></i>
+								<h3>Docentes</h3>
+								<p>Herramientas y guías para planificar y evaluar mejor.</p>
+								<a href="recursos-educativos.html">Explorar →</a>
+							</li>
+						</ul>
+					</div>
+
+					<div class="temas">
+						<h2 class="titulo-seccion">Temas populares</h2>
+						<ul class="lista-temas">
+							<li><a href="recursos-educativos.html">Álgebra</a></li>
+							<li><a href="recursos-educativos.html">Geometría</a></li>
+							<li><a href="recursos-educativos.html">Aritmética</a></li>
+							<li><a href="recursos-educativos.html">Estadística</a></li>
+							<li><a href="recursos-educativos.html">Probabilidad</a></li>
+							<li><a href="recursos-educativos.html">Cálculo</a></li>
+							<li><a href="recursos-educativos.html">Funciones</a></li>
+							<li><a href="recursos-educativos.html">Trigonometría</a></li>
+							<li><a href="recursos-educativos.html">Matrices</a></li>
+							<li><a href="recursos-educativos.html">Lógica Matemática</a></li>
+						</ul>
+						<a href="recursos-educativos.html">Ver todos los temas →</a>
+					</div>
+				</section>
+
+			</div>
+
+			<!--
+				ASIDE (COLUMNA LATERAL)
+				Información complementaria: quiénes somos, accesos rápidos,
+				boletín de noticias, recursos populares y una frase destacada.
+			-->
+			<aside class="barra-lateral">
+
+				<!-- ¿Qué es Matemática Digital? -->
+				<section class="caja">
+					<h2>¿Qué es Matemática Digital?</h2>
+					<i class="fa-solid fa-book-open icono-caja"></i>
+					<p>Somos una plataforma educativa que reúne recursos, estrategias y herramientas para transformar la enseñanza y el aprendizaje de las matemáticas con apoyo de la tecnología.</p>
+					<a href="nosotros.html">Conoce más sobre nosotros →</a>
+				</section>
+
+				<!-- Acceso rápido a otras secciones -->
+				<section class="caja">
+					<h2>Acceso rápido</h2>
+					<ul class="lista-enlaces">
+						<li><a href="recursos-educativos.html"><i class="fa-solid fa-file-lines"></i> Guías didácticas</a></li>
+						<li><a href="herramientas-digitales.html"><i class="fa-solid fa-wrench"></i> Herramientas digitales</a></li>
+						<li><a href="recursos-educativos.html"><i class="fa-solid fa-folder"></i> Recursos educativos</a></li>
+						<li><a href="estrategias-ensenanza.html"><i class="fa-solid fa-lightbulb"></i> Estrategias de enseñanza</a></li>
+						<li><a href="blog.html"><i class="fa-solid fa-rss"></i> Blog educativo</a></li>
+					</ul>
+				</section>
+
+				<!-- Formulario para suscribirse al boletín -->
+				<section class="caja caja-boletin">
+					<h2>Suscríbete a nuestro boletín</h2>
+					<p>Recibe recursos exclusivos, estrategias y novedades directamente en tu correo.</p>
+
+					<!-- Usamos type="email" y required para que el navegador valide el formulario -->
+					<form id="formBoletin">
+						<label for="correoBoletin" class="oculto-visualmente">Correo electrónico</label>
+						<input type="email" id="correoBoletin" name="email" placeholder="Tu correo electrónico" required>
+						<button type="submit" class="boton boton-boletin">Suscribirme</button>
+						<p class="texto-pequeno">No compartimos tu información.</p>
+					</form>
+				</section>
+
+				<!-- Lista de recursos más vistos -->
+				<section class="caja">
+					<h2>Recursos más visitados</h2>
+					<ul class="lista-enlaces">
+						<li><a href="recursos-educativos.html">Guía: Aprendizaje Basado en Problemas</a></li>
+						<li><a href="estrategias-ensenanza.html">Estrategias de Resolución de Problemas</a></li>
+						<li><a href="recursos-educativos.html">Conceptos Básicos de Álgebra</a></li>
+						<li><a href="recursos-educativos.html">Ejercicios de Geometría</a></li>
+						<li><a href="recursos-educativos.html">Plantilla de Evaluación</a></li>
+					</ul>
+					<a href="recursos-educativos.html">Ver todos los recursos →</a>
+				</section>
+
+				<!-- Frase célebre relacionada con las matemáticas -->
+				<figure class="caja caja-cita">
+					<i class="fa-solid fa-quote-left"></i>
+					<blockquote>
+						<p>Las matemáticas son el lenguaje con el que Dios ha escrito el universo.</p>
+					</blockquote>
+					<figcaption>— Galileo Galilei</figcaption>
+				</figure>
+
+			</aside>
+		</div>
+	</main>
+
+	<!--
+		PIE DE PÁGINA (FOOTER)
+		Información institucional, enlaces rápidos, recursos y contacto.
+		Se repite igual en todas las páginas del sitio.
+	-->
+	<footer class="pie-pagina">
+		<div class="contenedor pie-superior">
+
+			<div class="pie-marca">
+				<img src="img/logo.png" alt="Logo de Matemática Digital" width="48" height="48">
+				<div>
+					<p class="logo-nombre">MATEMÁTICA DIGITAL</p>
+					<p>Recursos, estrategias e innovación para la enseñanza de las matemáticas.</p>
+				</div>
+				<ul class="redes-sociales-pie">
+					<li><a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+					<li><a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+					<li><a href="https://youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+					<li><a href="mailto:correo@matematicadigital.edu"><i class="fa-solid fa-envelope"></i></a></li>
+				</ul>
+			</div>
+
+			<nav class="pie-enlaces">
+				<h2>Enlaces rápidos</h2>
+				<ul>
+					<li><a href="index.html">Inicio</a></li>
+					<li><a href="matematica-educacion.html">Matemática y Educación</a></li>
+					<li><a href="estrategias-ensenanza.html">Estrategias de Enseñanza</a></li>
+					<li><a href="herramientas-digitales.html">Herramientas Digitales</a></li>
+					<li><a href="recursos-educativos.html">Recursos Educativos</a></li>
+					<li><a href="blog.html">Blog</a></li>
+					<li><a href="nosotros.html">Nosotros</a></li>
+					<li><a href="contacto.html">Contacto</a></li>
+					<li><a href="politica-privacidad.html">Política de privacidad</a></li>
+					<li><a href="terminos-condiciones.html">Términos y condiciones</a></li>
+				</ul>
+			</nav>
+
+			<nav class="pie-enlaces">
+				<h2>Recursos</h2>
+				<ul>
+					<li><a href="recursos-educativos.html">Guías didácticas</a></li>
+					<li><a href="recursos-educativos.html">Videos educativos</a></li>
+					<li><a href="recursos-educativos.html">Infografías</a></li>
+					<li><a href="recursos-educativos.html">Plantillas</a></li>
+					<li><a href="recursos-educativos.html">Ejercicios interactivos</a></li>
+				</ul>
+			</nav>
+
+			<address class="pie-contacto">
+				<h2>Contacto</h2>
+				<p><i class="fa-solid fa-envelope"></i> <a href="mailto:correo@matematicadigital.edu">correo@matematicadigital.edu</a></p>
+				<p><i class="fa-solid fa-phone"></i> <a href="tel:+51900000000">+51 900 000 000</a></p>
+				<p><i class="fa-solid fa-location-dot"></i> Andahuaylas, Apurímac – Perú</p>
+			</address>
+		</div>
+
+		<!-- Franja final con los derechos de autor y enlaces legales -->
+		<div class="pie-inferior">
+			<div class="contenedor pie-inferior-interno">
+				<p>&copy; 2024 Matemática Digital. Todos los derechos reservados.</p>
+				<nav>
+					<ul>
+						<li><a href="terminos-condiciones.html">Términos y Condiciones</a></li>
+						<li><a href="politica-privacidad.html">Política de Privacidad</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</footer>
+
+	<!-- Nuestro archivo de JavaScript, siempre al final del body -->
+	<script src="js/main.js"></script>
+</body>
+</html>

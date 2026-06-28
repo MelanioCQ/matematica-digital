@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Matemática Digital | Matemática y Educación</title>
+	<meta name="description" content="Conoce los enfoques pedagógicos, fundamentos teóricos y aplicaciones prácticas que conectan la matemática con la educación.">
+
+	<!-- Fuentes de Google Fonts: Poppins para títulos y Roboto para texto -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+	<!-- Font Awesome: librería de íconos usada en todo el sitio -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+	<!-- Nuestra hoja de estilos propia -->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+	<!--
+		ENCABEZADO (HEADER)
+		Igual que en la página de Inicio: logo, eslogan y redes sociales.
+	-->
+	<header class="cabecera">
+		<div class="contenedor cabecera-superior">
+
+			<a href="index.html" class="logo">
+				<img src="img/logo.png" alt="Logo de Matemática Digital" width="56" height="56">
+				<span class="logo-texto">
+					<span class="logo-nombre">MATEMÁTICA DIGITAL</span>
+					<span class="logo-eslogan">Recursos, estrategias e innovación para la enseñanza de las matemáticas.</span>
+				</span>
+			</a>
+
+			<div class="redes-sociales">
+				<span>Síguenos en:</span>
+				<ul>
+					<li><a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+					<li><a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+					<li><a href="https://youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+					<li><a href="mailto:correo@matematicadigital.edu"><i class="fa-solid fa-envelope"></i></a></li>
+				</ul>
+			</div>
+		</div>
+
+		<!--
+			MENÚ DE NAVEGACIÓN (NAVBAR)
+			El enlace "Matemática y Educación" tiene la clase "activo"
+			porque es la página en la que estamos.
+		-->
+		<nav class="navbar">
+			<div class="contenedor navbar-interno">
+				<button type="button" id="botonMenu" class="boton-menu">
+					<i class="fa-solid fa-bars"></i> Menú
+				</button>
+
+				<ul id="menuPrincipal" class="menu">
+					<li><a href="index.html">Inicio</a></li>
+					<li><a href="matematica-educacion.html" class="activo">Matemática y Educación</a></li>
+					<li><a href="estrategias-ensenanza.html">Estrategias de Enseñanza</a></li>
+					<li><a href="herramientas-digitales.html">Herramientas Digitales</a></li>
+					<li><a href="recursos-educativos.html">Recursos Educativos</a></li>
+					<li><a href="blog.html">Blog</a></li>
+					<li><a href="nosotros.html">Nosotros</a></li>
+					<li><a href="contacto.html">Contacto</a></li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+
+	<!--
+		CONTENIDO PRINCIPAL DE LA PÁGINA
+	-->
+	<main>
+
+		<!--
+			BANNER DE PÁGINA
+			Título, ruta de navegación (migas de pan) e introducción.
+		-->
+		<section class="banner-pagina">
+			<div class="contenedor">
+				<nav aria-label="Ruta de navegación" class="migas-pan">
+					<ol>
+						<li><a href="index.html">Inicio</a></li>
+						<li aria-current="page">Matemática y Educación</li>
+					</ol>
+				</nav>
+
+				<h1>Matemática y Educación</h1>
+				<p class="banner-frase">Aprender matemáticas es comprender el mundo para transformarlo.</p>
+				<p>Explora enfoques pedagógicos, fundamentos teóricos y aplicaciones prácticas que conectan la matemática con el proceso educativo y el desarrollo integral de los estudiantes.</p>
+			</div>
+		</section>
+
+		<div class="contenedor diseno-dos-columnas">
+
+			<!-- Columna izquierda: contenido principal de la página -->
+			<div class="columna-principal">
+
+				<!--
+					IMPORTANCIA DE LA MATEMÁTICA EN LA EDUCACIÓN
+				-->
+				<section id="importancia">
+					<h2 class="titulo-seccion">Importancia de la matemática en la educación</h2>
+
+					<ul class="tarjetas tarjetas-cinco">
+						<li class="tarjeta">
+							<i class="fa-solid fa-brain icono-tarjeta"></i>
+							<h3>Desarrolla el pensamiento lógico</h3>
+							<p>Fomenta la capacidad de analizar, razonar y resolver problemas complejos.</p>
+						</li>
+						<li class="tarjeta">
+							<i class="fa-solid fa-bullseye icono-tarjeta"></i>
+							<h3>Herramienta para la vida</h3>
+							<p>Permite comprender y actuar en situaciones cotidianas con mayor confianza.</p>
+						</li>
+						<li class="tarjeta">
+							<i class="fa-solid fa-chart-column icono-tarjeta"></i>
+							<h3>Base para otras áreas</h3>
+							<p>Sustenta el aprendizaje en ciencias, ingeniería, economía y tecnología.</p>
+						</li>
+						<li class="tarjeta">
+							<i class="fa-solid fa-people-group icono-tarjeta"></i>
+							<h3>Formación integral</h3>
+							<p>Contribuye al desarrollo de habilidades cognitivas y socioemocionales.</p>
+						</li>
+						<li class="tarjeta">
+							<i class="fa-solid fa-rocket icono-tarjeta"></i>
+							<h3>Preparación para el futuro</h3>
+							<p>Potencia competencias clave para un mundo en constante cambio.</p>
+						</li>
+					</ul>
+				</section>
+
+				<!--
+					FUNDAMENTOS PEDAGÓGICOS
+				-->
+				<section id="fundamentos">
+					<h2 class="titulo-seccion">Fundamentos pedagógicos</h2>
+					<p>La enseñanza de las matemáticas se sustenta en teorías y principios que orientan la práctica docente.</p>
+
+					<ul class="tarjetas-recursos">
+						<li class="tarjeta-recurso">
+							<article>
+								<figure>
+									<div class="imagen-pendiente">Constructivismo</div>
+								</figure>
+								<h3>Constructivismo</h3>
+								<p>El estudiante construye su conocimiento a partir de sus experiencias y conocimientos previos.</p>
+							</article>
+						</li>
+						<li class="tarjeta-recurso">
+							<article>
+								<figure>
+									<div class="imagen-pendiente">Aprendizaje significativo</div>
+								</figure>
+								<h3>Aprendizaje significativo</h3>
+								<p>Los nuevos conocimientos se relacionan con lo que el estudiante ya sabe, generando un aprendizaje duradero.</p>
+							</article>
+						</li>
+						<li class="tarjeta-recurso">
+							<article>
+								<figure>
+									<div class="imagen-pendiente">Enfoque por competencias</div>
+								</figure>
+								<h3>Enfoque por competencias</h3>
+								<p>Desarrolla capacidades para resolver problemas en contextos reales, con autonomía y reflexión.</p>
+							</article>
+						</li>
+						<li class="tarjeta-recurso">
+							<article>
+								<figure>
+									<div class="imagen-pendiente">Enfoque sociocultural</div>
+								</figure>
+								<h3>Enfoque sociocultural</h3>
+								<p>El aprendizaje ocurre en interacción con otros, mediado por el lenguaje y la cultura.</p>
+							</article>
+						</li>
+					</ul>
+				</section>
+
+				<!--
+					ENFOQUES DE ENSEÑANZA
+				-->
+				<section id="enfoques">
+					<h2 class="titulo-seccion">Enfoques de enseñanza</h2>
+					<p>Diversas metodologías activas que promueven el aprendizaje profundo y significativo.</p>
+
+					<ul class="tarjetas tarjetas-tres">
+						<li class="tarjeta">
+							<i class="fa-solid fa-people-arrows icono-tarjeta"></i>
+							<h3>Aprendizaje basado en problemas</h3>
+							<p>Plantea desafíos reales para desarrollar el pensamiento crítico.</p>
+						</li>
+						<li class="tarjeta">
+							<i class="fa-solid fa-puzzle-piece icono-tarjeta"></i>
+							<h3>Aprendizaje colaborativo</h3>
+							<p>Promueve el trabajo en equipo y el intercambio de ideas.</p>
+						</li>
+						<li class="tarjeta">
+							<i class="fa-solid fa-laptop icono-tarjeta"></i>
+							<h3>Uso de tecnologías digitales</h3>
+							<p>Integra herramientas digitales para potenciar la comprensión.</p>
+						</li>
+						<li class="tarjeta">
+							<i class="fa-solid fa-magnifying-glass icono-tarjeta"></i>
+							<h3>Indagación matemática</h3>
+							<p>Fomenta la curiosidad, exploración y descubrimiento.</p>
+						</li>
+						<li class="tarjeta">
+							<i class="fa-solid fa-gamepad icono-tarjeta"></i>
+							<h3>Gamificación</h3>
+							<p>Usa el juego como estrategia motivadora de aprendizaje.</p>
+						</li>
+						<li class="tarjeta">
+							<i class="fa-solid fa-chart-line icono-tarjeta"></i>
+							<h3>Aprendizaje contextualizado</h3>
+							<p>Conecta la matemática con situaciones reales y significativas.</p>
+						</li>
+					</ul>
+				</section>
+
+				<!--
+					COMPETENCIAS, CURRÍCULO Y EVALUACIÓN
+					Tres bloques de información en columnas.
+				-->
+				<section id="competencias" class="tres-columnas">
+					<div class="caja">
+						<h2>Competencias matemáticas</h2>
+						<p>Desarrollamos competencias clave para la vida.</p>
+						<ul class="lista-check">
+							<li><i class="fa-solid fa-check"></i> Resuelve problemas de cantidad</li>
+							<li><i class="fa-solid fa-check"></i> Resuelve problemas de regularidad, equivalencia y cambio</li>
+							<li><i class="fa-solid fa-check"></i> Resuelve problemas de forma, movimiento y localización</li>
+							<li><i class="fa-solid fa-check"></i> Resuelve problemas de gestión de datos e incertidumbre</li>
+							<li><i class="fa-solid fa-check"></i> Comunica y representa ideas matemáticas</li>
+							<li><i class="fa-solid fa-check"></i> Argumenta afirmaciones sobre relaciones numéricas y geométricas</li>
+						</ul>
+						<a href="#">Ver más sobre competencias →</a>
+					</div>
+
+					<div class="caja">
+						<h2>Matemática en el currículo</h2>
+						<p>La matemática se integra en todas las etapas y niveles educativos.</p>
+						<ul class="lista-enlaces">
+							<li><i class="fa-solid fa-school"></i> Educación Inicial</li>
+							<li><i class="fa-solid fa-school"></i> Educación Primaria</li>
+							<li><i class="fa-solid fa-school"></i> Educación Secundaria</li>
+							<li><i class="fa-solid fa-graduation-cap"></i> Educación Superior</li>
+							<li><i class="fa-solid fa-link"></i> Articulación entre niveles</li>
+						</ul>
+						<a href="#">Conoce más sobre el currículo →</a>
+					</div>
+
+					<div class="caja">
+						<h2>Evaluación del aprendizaje</h2>
+						<p>Evaluar para mejorar y acompañar el aprendizaje.</p>
+						<ul class="lista-enlaces">
+							<li><i class="fa-solid fa-clipboard-check"></i> Evaluación diagnóstica</li>
+							<li><i class="fa-solid fa-clipboard-check"></i> Evaluación formativa</li>
+							<li><i class="fa-solid fa-clipboard-check"></i> Evaluación sumativa</li>
+							<li><i class="fa-solid fa-list-check"></i> Rúbricas y criterios claros</li>
+							<li><i class="fa-solid fa-comments"></i> Retroalimentación efectiva</li>
+						</ul>
+						<a href="#">Ver estrategias de evaluación →</a>
+					</div>
+				</section>
+
+				<!--
+					RECURSOS RECOMENDADOS
+				-->
+				<section id="recursos">
+					<h2 class="titulo-seccion">Recursos recomendados</h2>
+					<p>Materiales y herramientas para docentes y estudiantes.</p>
+
+					<ul class="tarjetas tarjetas-cinco">
+						<li class="tarjeta">
+							<i class="fa-solid fa-file-lines icono-tarjeta"></i>
+							<h3>Guías didácticas</h3>
+							<p>Planeaciones y actividades listas para el aula.</p>
+							<a href="recursos-educativos.html">Ver guías →</a>
+						</li>
+						<li class="tarjeta">
+							<i class="fa-solid fa-chart-pie icono-tarjeta"></i>
+							<h3>Infografías</h3>
+							<p>Conceptos clave explicados de forma visual.</p>
+							<a href="recursos-educativos.html">Ver infografías →</a>
+						</li>
+						<li class="tarjeta">
+							<i class="fa-solid fa-circle-play icono-tarjeta"></i>
+							<h3>Videos educativos</h3>
+							<p>Clases y tutoriales para comprender mejor.</p>
+							<a href="recursos-educativos.html">Ver videos →</a>
+						</li>
+						<li class="tarjeta">
+							<i class="fa-solid fa-pen-ruler icono-tarjeta"></i>
+							<h3>Ejercicios interactivos</h3>
+							<p>Practica y refuerza actividades dinámicas.</p>
+							<a href="recursos-educativos.html">Practicar →</a>
+						</li>
+						<li class="tarjeta">
+							<i class="fa-solid fa-table-list icono-tarjeta"></i>
+							<h3>Planificaciones</h3>
+							<p>Modelos y formatos para organizar tus clases.</p>
+							<a href="recursos-educativos.html">Ver modelos →</a>
+						</li>
+					</ul>
+				</section>
+
+			</div>
+
+			<!--
+				ASIDE (COLUMNA LATERAL)
+			-->
+			<aside class="barra-lateral">
+
+				<!-- Índice de contenidos de la página -->
+				<nav class="caja" aria-label="Contenido de la página">
+					<h2>En esta página</h2>
+					<ul class="lista-enlaces">
+						<li><a href="#importancia">Importancia de la matemática</a></li>
+						<li><a href="#fundamentos">Fundamentos pedagógicos</a></li>
+						<li><a href="#enfoques">Enfoques de enseñanza</a></li>
+						<li><a href="#competencias">Competencias matemáticas</a></li>
+						<li><a href="#competencias">Matemática en el currículo</a></li>
+						<li><a href="#competencias">Evaluación del aprendizaje</a></li>
+						<li><a href="#recursos">Recursos recomendados</a></li>
+					</ul>
+				</nav>
+
+				<!-- Llamado a la acción -->
+				<section class="caja caja-cta">
+					<i class="fa-solid fa-graduation-cap icono-caja"></i>
+					<h2>Transforma tu enseñanza</h2>
+					<p>Accede a estrategias, recursos y herramientas que te ayudarán a inspirar y potenciar el aprendizaje matemático.</p>
+					<a href="recursos-educativos.html" class="boton boton-primario">Explorar recursos</a>
+				</section>
+
+				<!-- Suscripción al boletín -->
+				<section class="caja caja-boletin">
+					<h2>Suscríbete a nuestro boletín</h2>
+					<p>Recibe artículos, estrategias y recursos exclusivos directamente en tu correo.</p>
+					<form>
+						<label for="correoBoletin" class="oculto-visualmente">Correo electrónico</label>
+						<input type="email" id="correoBoletin" name="email" placeholder="Tu correo electrónico" required>
+						<button type="submit" class="boton boton-boletin">Suscribirme</button>
+						<p class="texto-pequeno">No compartimos tu información.</p>
+					</form>
+				</section>
+
+				<!-- Documentos recomendados -->
+				<section class="caja">
+					<h2>Documentos recomendados</h2>
+					<ul class="lista-enlaces">
+						<li><a href="#"><i class="fa-solid fa-file-lines"></i> Marco Curricular Nacional de Educación Básica</a></li>
+						<li><a href="#"><i class="fa-solid fa-file-lines"></i> Estándares de Aprendizaje de Matemática</a></li>
+						<li><a href="#"><i class="fa-solid fa-file-lines"></i> Rutas de Aprendizaje</a></li>
+						<li><a href="#"><i class="fa-solid fa-file-lines"></i> Orientaciones para la Evaluación Formativa</a></li>
+					</ul>
+					<a href="#">Ver todos los documentos →</a>
+				</section>
+
+				<!-- Frase destacada -->
+				<figure class="caja caja-cita">
+					<i class="fa-solid fa-quote-left"></i>
+					<blockquote>
+						<p>La matemática no es solo números, es una forma de pensar, de razonar y de entender el mundo.</p>
+					</blockquote>
+					<figcaption>— Shakuntala Devi</figcaption>
+				</figure>
+
+			</aside>
+		</div>
+	</main>
+
+	<!--
+		PIE DE PÁGINA (FOOTER)
+		Igual que en todas las páginas del sitio.
+	-->
+	<footer class="pie-pagina">
+		<div class="contenedor pie-superior">
+
+			<div class="pie-marca">
+				<img src="img/logo.png" alt="Logo de Matemática Digital" width="48" height="48">
+				<div>
+					<p class="logo-nombre">MATEMÁTICA DIGITAL</p>
+					<p>Recursos, estrategias e innovación para la enseñanza de las matemáticas.</p>
+				</div>
+				<ul class="redes-sociales-pie">
+					<li><a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+					<li><a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+					<li><a href="https://youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+					<li><a href="mailto:correo@matematicadigital.edu"><i class="fa-solid fa-envelope"></i></a></li>
+				</ul>
+			</div>
+
+			<nav class="pie-enlaces">
+				<h2>Enlaces rápidos</h2>
+				<ul>
+					<li><a href="index.html">Inicio</a></li>
+					<li><a href="matematica-educacion.html">Matemática y Educación</a></li>
+					<li><a href="estrategias-ensenanza.html">Estrategias de Enseñanza</a></li>
+					<li><a href="herramientas-digitales.html">Herramientas Digitales</a></li>
+					<li><a href="recursos-educativos.html">Recursos Educativos</a></li>
+					<li><a href="blog.html">Blog</a></li>
+					<li><a href="nosotros.html">Nosotros</a></li>
+					<li><a href="contacto.html">Contacto</a></li>
+				</ul>
+			</nav>
+
+			<nav class="pie-enlaces">
+				<h2>Recursos</h2>
+				<ul>
+					<li><a href="recursos-educativos.html">Guías didácticas</a></li>
+					<li><a href="recursos-educativos.html">Videos educativos</a></li>
+					<li><a href="recursos-educativos.html">Infografías</a></li>
+					<li><a href="recursos-educativos.html">Plantillas</a></li>
+					<li><a href="recursos-educativos.html">Ejercicios interactivos</a></li>
+				</ul>
+			</nav>
+
+			<address class="pie-contacto">
+				<h2>Contacto</h2>
+				<p><i class="fa-solid fa-envelope"></i> <a href="mailto:correo@matematicadigital.edu">correo@matematicadigital.edu</a></p>
+				<p><i class="fa-solid fa-phone"></i> <a href="tel:+51900000000">+51 900 000 000</a></p>
+				<p><i class="fa-solid fa-location-dot"></i> Andahuaylas, Apurímac – Perú</p>
+			</address>
+		</div>
+
+		<div class="pie-inferior">
+			<div class="contenedor pie-inferior-interno">
+				<p>&copy; 2024 Matemática Digital. Todos los derechos reservados.</p>
+				<nav>
+					<ul>
+						<li><a href="terminos-condiciones.html">Términos y Condiciones</a></li>
+						<li><a href="politica-privacidad.html">Política de Privacidad</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</footer>
+
+	<script src="js/main.js"></script>
+</body>
+</html>
